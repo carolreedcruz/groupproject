@@ -11,7 +11,12 @@
 }
 
 footer {
-    position: fixed;
+    clear: both;
+    position: relative;
+    /*height: 200px;
+    margin-top: -200px;*/
+    /*
+    position: fixed;*/
     /*height: 60px;*/
     bottom: 0;
     width: 100%;
@@ -59,7 +64,7 @@ footer a{
 }
 
 
- .content {
+.content {
     margin: 20px 0 0 0;
 }
 
