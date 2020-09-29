@@ -13,7 +13,8 @@ body{
 ul{
     position: absolute; /*makes the navbar overlay background image*/
     width: auto;
-    background-color: black;
+    /*background-color: black;*/
+    background-color: #212529;
     width: 100%;
     padding: 11px;
     margin-top: 31px;
@@ -70,6 +71,8 @@ a:hover, a:visited, a:link, a:active{
 /*Homepage*/
 #background-image{
 width: 1500px;
+overflow:auto;
+
 }
     
 .homepage-container #background-image{
@@ -87,7 +90,7 @@ width: 1500px;
             background: rgb(0, 0, 0); /* Fallback color */
             background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
             color: #f1f1f1; /* Grey text */
-            padding: 25px; /* Some padding */
+            /*padding: 25px; /* Some padding */
             text-align: right;
             font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
             font-size:50px;
@@ -98,4 +101,8 @@ width: 1500px;
 #homepage-info {
 font-weight: 100;
 font-size:65px;
+}
+
+#homepage-container {
+    height: auto;
 }
