@@ -15,7 +15,7 @@ body{
 /*  nav */
 
 nav{
-    background-color: black;
+    background-color:  #212529;
     padding: 15px;
 }
 
@@ -156,9 +156,12 @@ footer a{
 }
 
 .left-box .content .social a span:hover {
-    background:greenyellow;
+    background:rgb(42, 42, 168);
 
 }
+/*.left-box .content .social a:nth-child(3) span:hover {
+    background: rgb(rgb(124, 25, 25), green, blue)
+}*/
 
 .center .content .fas {
     font-size: 1.4375rem;
