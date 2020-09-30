@@ -44,7 +44,7 @@ a:visited {
       
 /* mouse over link */
 a:hover{
-    color: burlywood;
+    color: rgb(155, 198, 238);
     -o-transition:.7s;
     -ms-transition:.7s;
     -moz-transition:.7s;
@@ -70,18 +70,17 @@ a:hover, a:visited, a:link, a:active{
 *{
     margin: 0;
     padding: 0;
-    color: #d9d9d9;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+
 }
 .test-div {
     background-color: green;
 }
 
 footer {
-    /*height: 200px;
-    margin-top: -200px;*/
-    position: fixed;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 100;
     bottom: 0;
     width: 100%;
     background-color: #212529;
@@ -125,6 +124,9 @@ footer a{
 .left-box {
     flex-basis: 50%;
     padding: 10px 20px;
+    color: #d9d9d9;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
 }
 
 
@@ -156,51 +158,149 @@ footer a{
 }
 
 .center .content .fas {
-    font-size: 1.4375rem;
-    background: #1a1a1a;
-    height: 45px;
-    width: 45px;
-    line-height: 45px;
-    text-align: center;
-    border-radius: 50%;
-    transition: 0.3s;
-    cursor: pointer;
+font-size: 1.4375rem;
+background: #1a1a1a;
+height: 45px;
+width: 45px;
+line-height: 45px;
+text-align: center;
+border-radius: 50%;
+transition: 0.3s;
+cursor: pointer;
 }
 
 .center .content .fas:hover {
-    background: #f12020;
+background: #f12020;
 }
 
 .center .content .text {
-    font-size: 1.0625rem;
-    font-weight: 500;
-    padding-left: 10px;
+font-size: 1.0625rem;
+font-weight: 500;
+padding-left: 10px;
 }
 .center .content .phone{
-    margin: 15px 0;
+margin: 15px 0;
 }
 
 .right {
-      margin-left: auto;
+margin-left: auto;
 }
 .right form .text{
-    font-size: 1.0625rem;
-    margin-bottom: 2px;
-    color: #656565;
+font-size: 1.0625rem;
+margin-bottom: 2px;
+color: #656565;
 }
 
 .right form .msg{
-    margin-top: 10px;
+margin-top: 10px;
 }
 
 .right form input, .right form .msgForm{
-    width: 100%;
-    font-size: 1.0625rem;
-    background: #151515;
-    padding-left: 10px;
-    border: 1px solid #222222;
+width: 100%;
+font-size: 1.0625rem;
+background: #151515;
+padding-left: 10px;
+border: 1px solid #222222;
 }
 
 /* footer */
 
 /*over all pages*/
+
+#about-container{
+display:flex;
+
+}
+
+#about-image{
+height: 510px;
+margin-top: 180px;
+
+}
+
+#right-flex{
+flex-basis: 50%;
+padding: 4px 38px;
+margin-top: 262px;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-weight: 100;
+}
+
+#About-title{
+margin-bottom: 15px;
+font-size: 75px;
+font-weight: 100;
+}
+
+#About-text{
+font-size:25px;
+}
+
+#team-container{
+padding:200px;
+margin-left: 40px;
+}
+
+#Images-title{
+color: black;
+font-family: 'Poppins', sans-serif;
+display:flex;
+justify-content: center;
+font-style:italic;
+}
+
+#team-images{
+display: flex;
+justify-content: space-evenly;
+margin-top: 60px;
+}
+
+#carol-image{
+height:300px;
+width: 293px;
+border-radius: 50%;
+}
+
+#ivy-image{
+border-radius: 50%;
+}
+
+#team-names{
+display:flex;
+justify-content: space-evenly;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-weight: 100;
+font-size: 40px;
+font-weight: 100;
+margin-top: 15px;
+}
+
+#ivy-name{
+margin-left:30px;
+font-weight:100;
+}
+
+#carol-name{
+margin-left:55px;
+font-weight: 100;
+}
+
+#team-info{
+display:flex;
+justify-content: space-evenly;
+color: black;
+font-family: 'Poppins', sans-serif;
+font-weight: 100;
+}
+
+#ivy-info{
+padding:5px;
+}
+
+#carol-info{
+padding:5px;
+}
+
+
