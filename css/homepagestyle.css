@@ -70,11 +70,6 @@ a:hover, a:visited, a:link, a:active{
 /*navbar^*/
 
 /*footer*/
-
-.test-div {
-    background-color: green;
-}
-
 footer {
     /*height: 200px;
     margin-top: -200px;*/
@@ -97,7 +92,7 @@ footer a{
 }
 
 .flex h2:after{
-    border-bottom: 2px solid rgb(58, 197, 76);
+   border-bottom: 2px solid rgb(58, 197, 76);
    content: "";
    display: block;
    width:30%;
@@ -198,7 +193,7 @@ footer a{
     padding-left: 10px;
     border: 1px solid #222222;
 }
-/* Media queries: footer (test)*/
+/* Media queries: footer (test)*
 @media screen and (max-width: 900px) {
     footer{
       position: relative;
