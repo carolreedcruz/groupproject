@@ -37,22 +37,23 @@ nav ul a {
 
    /*main page*/ 
 
-   .main-container{
-       padding-bottom: 30px;
-       flex: 1;
-   }
+   
+.main-container{
+    padding-bottom: 30px;
+    flex: 1;
+}
 
-    h2, h3, ul li {
-       color: #3795e2;
-       padding: 10px;
-   }
+#heading, h3, ul li {
+    color: #3795e2;
+    padding: 10px;
+}
 
-   .intro{
-       text-align: center;
-           margin-top: 20px;
-   }
+.intro{
+    text-align: center;
+    margin-top: 20px;
+}
 
-   .intro:after{
+.intro:after{
     border-bottom: 2px solid #3795e2;
     content: "";
     display: block;
@@ -60,30 +61,30 @@ nav ul a {
     padding-top: 10px;
     margin-left: 5%;
     margin-bottom: 50px;
- }
+}
 
-   .image{
-       width: 200px;
-       height: 200px;
-       border: 2px solid #3795e2;
+.image{
+    width: 200px;
+    height: 200px;
+    border: 2px solid #3795e2;
     padding: 20px;
     border-radius: 50%;
-   }
+}
 
-   .div-items{
-       display: flex;
-      justify-content: space-around;
-      margin-bottom: 50px
-   }
+.div-items{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 50px
+}
 
-   .div-items:nth-child(2){
-       margin-left: 15%;
-   }
+.div-items:nth-child(2){
+    margin-left: 15%;
+}
 
-   .item-pic h3{
-       font-size: 1.5rem;
-       font-weight: bolder;
-   }
+.item-pic h3{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
 
 
 /*footer*/
@@ -156,7 +157,7 @@ footer a{
 }
 
 .left-box .content .social a span:hover {
-    background:rgb(42, 42, 168);
+    background: blue;
 
 }
 /*.left-box .content .social a:nth-child(3) span:hover {
