@@ -8,49 +8,50 @@
     font-family: 'Poppins', sans-serif;
 }
     
+
 body{
- overflow-x:hidden !important;
+    display: flex;
+    flex-direction: column;
 }
+/*  nav */
 
-
- /*navbar*/
-ul{
-    position: absolute; /*makes the navbar overlay background image*/
-    width: auto;
-    /*background-color: black;*/
-    background-color: #212529;
-    width: 100%;
-    padding: 11px;
-    margin-top: 31px;
+body{
+    display: flex;
+    flex-direction: column;
 }
+/*  nav */
 
+
+nav{
+    background-color:  #212529;
+    padding: 15px;
+    display: flex;
+    justify-content: space-around;
+}
  
-ul {
-    display: flex; 
-    justify-content: space-evenly;
-    font-size: 45px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-weight: 100;
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
 }
-    
-ul li {
-    display: inline-block;
-    color: white
+ 
+nav ul li{
+    margin-bottom: 10px;
+    margin-left: 50px;
 }
-    
-ul{
-/* unvisited link */
-color:white;
+ 
+nav ul a {
+    text-decoration: none;
+    font-size: 1.5rem
 }
-    
-/* visited link */
-a:visited {
- color: white;
+ 
+h3 a {
+     color: #3795e2;
+     text-decoration: none;
 }
-      
-/* mouse over link */
+ 
 a:hover{
-    color: burlywood;
+    color: #3795e2;
     -o-transition:.7s;
     -ms-transition:.7s;
     -moz-transition:.7s;
@@ -58,21 +59,33 @@ a:hover{
     transition:.7s;
 }
 
-/* selected link */
-a:active {
- color: black;
-}
-    
-a:hover, a:visited, a:link, a:active{
- text-decoration:none;
-}
- 
-/*navbar^*/
 
-/*footer*/
+   /*main page*/ 
 
-.test-div {
-    background-color: green;
+   
+.main-container{
+    padding-bottom: 30px;
+    flex: 1;
+}
+
+#heading, h3, ul li {
+    color: #3795e2;
+    padding: 10px;
+}
+
+.intro{
+    text-align: center;
+    margin-top: 20px;
+}
+
+.intro:after{
+    border-bottom: 2px solid ;
+    content: "";
+    display: block;
+    width:90%;
+    padding-top: 10px;
+    margin-left: 5%;
+    margin-bottom: 50px;
 }
 
 footer {
