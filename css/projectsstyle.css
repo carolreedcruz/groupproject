@@ -15,24 +15,46 @@ body{
 }
 /*  nav */
 
+body{
+    display: flex;
+    flex-direction: column;
+}
+/*  nav */
+
+
 nav{
     background-color:  #212529;
     padding: 15px;
-}
-
-nav ul {
+    display: flex;
+    justify-content: space-around;
+ }
+ 
+ nav ul {
     display: flex;
     justify-content: space-around;
     list-style-type: none;
-}
-
-nav ul li{
+ }
+ 
+ nav ul li{
     margin-bottom: 10px;
-}
-
-nav ul a {
+    margin-left: 50px;
+ }
+ 
+ nav ul a {
     text-decoration: none;
     font-size: 1.5rem
+ }
+ h3 a {
+     color: #3795e2;
+     text-decoration: none;
+ }
+ a:hover{
+    color: #3795e2;
+    -o-transition:.7s;
+    -ms-transition:.7s;
+    -moz-transition:.7s;
+    -webkit-transition:.7s;
+    transition:.7s;
 }
 
 
@@ -55,7 +77,7 @@ nav ul a {
 }
 
 .intro:after{
-    border-bottom: 2px solid #3795e2;
+    border-bottom: 2px solid ;
     content: "";
     display: block;
     width:90%;
