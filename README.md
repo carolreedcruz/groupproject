@@ -1,1 +1,1 @@
-# groupproject
+# Group project: Creating a responsive webpage using HTML and CSS.
