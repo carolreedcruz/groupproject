@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
+    <head>
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.10.2/css/all.css" integrity="sha384-rtJEYb85SiYWgfpCr0jn174XgJTn4rptSOQsMroFBPQSGLdOC5IbubP6lJ35qoM9" crossorigin="anonymous">
+        <link rel="stylesheet" href="css/contactstyle.css">
+        <link rel="stylesheet" href="css/normalize.css">
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Page</title>
+    </head>
 
-<head>
-    <link rel="stylesheet" href="css/contactstyle.css">
-    <link rel="stylesheet" href="css/normalize.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-    <title>Contact Page</title>
-</head>
-
-<body>
+    <body>
 
     <header>
 
@@ -21,96 +20,47 @@
                 <li><a href="about.html">About </a></li>
                 <li><a href="projects.html">Projects</a></li>
                 <li><a href="contact.html">Contact</a></li>
-            </ul>
+            </ul>     
         </nav>
     </header>
 
-    <!--<img id ="contact-image" src="Images/Image3.png" alt="contact-image">
-
-    <div id="contact-container">
-            <form  id="prospects_form" method="post">
-                <input type="text"  id="name" placeholder="Name">
-                <p id="namePrompt"></p>
-                <input type="text"  id="email" placeholder="Email">
-                <p id="emailPrompt"></p>
-                <input type="text" id="tele" placeholder="Phone">
-                <p id="phonePrompt"></p>
-                <textarea  id="textarea" cols="30" rows="10" placeholder="Write your message here..."></textarea>
-                <input onclick="validateForm()" type="submit" value="Send" id="send"><p id="submitPrompt"></p>
-                <p id="textPrompt"></p>
-            </form>
-        </div>
-    </div>
- </div>-->
-
-
-    <footer>
-
-
-        <div class="left-box flex">
-            <h2>About us</h2>
-            <div class="content">
-                <p>
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora odio molestiae repellendus,
-                    delectus eveniet nihil, optio maiores, quam reprehenderit corrupti architecto. Voluptate
-                    voluptatem reprehenderit magnam voluptatibus recusandae placeat rem repellendus.
-                </p>
-                <div class="social">
-                    <a href="#">
-                        <span class="fab fa-facebook-f"></span>
-                        <span class="fab fa-twitter"></span>
-                        <span class="fab fa-instagram"></span>
-                        <span class="fab fa-youtube"></span>
-                    </a>
-                </div>
-            </div>
-        </div>
-
-        <div class="center flex">
-            <h2>Address</h2>
-            <div class="content">
-                <div class="place">
-                    <span class="fas fa-map-marker-alt"></span>
-                    <span class="text"> Brunnsgatan, Stockholm</span>
-                </div>
-                <div class="phone">
-                    <span class="fas fa-phone-alt"></span>
-                    <span class="text"> +(46) 8 329 29 90</span>
+    <section class="contact">
+        <h2>Contact Us</h2>
+        <p id="contact">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Similique molestiae illum cumque facere eos maxime vero temporibus excepturi, minima, corporis aspernatur suscipit sit saepe debitis hic distinctio, nostrum perspiciatis quibusdam!</p>
+        <div class="container">
+            <div class="info">
+                <div class="adress">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span>Adress</span>
+                    <p class="infopara">Stockholm 15155 <br>
+                        Blue Street 231
+                    </p>
                 </div>
                 <div class="email">
-                    <span class="fas fa-envelope"></span>
-                    <span class="text"> businessconsulting@email.com</span>
+                    <i class="fas fa-envelope-open-text"></i>
+                    <span>Email</span>
+                    <p class="infopara">email@gmail.com</p>
+                </div>
+                <div class="phone">
+                    <i class="fas fa-phone"></i>
+                    <span>Phone</span>
+                    <p class="infopara">072 617 712</p>
                 </div>
             </div>
-        </div>
-
-        <div class="right flex">
-            <h2>Contact us</h2>
-            <div class="content">
-                <form action="#">
-                    <div class="email">
-                        <div class="text">Email *</div>
-                        <input type="email" required>
-                    </div>
-                    <div class="msg">
-                        <div class="text">Message *</div>
-                        <textarea id="msgForm" cols="25" rows="2" required></textarea>
-                    </div>
-                    <br />
-                    <div class="btn">
-                        <button type="submit">Send</button>
-                    </div>
-
+            <div class="form">
+                <form>
+                    <p>Send Message</p>
+                    <label>Full Name</label>
+                    <input type="text">
+                    <label>Email</label>
+                    <input type="email">
+                    <label>Message</label>
+                    <input type="text" class="message">
+                    <button>Send</button>
                 </form>
             </div>
         </div>
+    </section>
 
-    </footer>
-
-
-
-
-
-</body>
-
+    </body>
 </html>
