@@ -132,7 +132,6 @@ top:350px; /* At the bottom. Use top:0 to append it to the top */
 background: rgb(0, 0, 0); /* Fallback color */
 background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
 color: #f1f1f1; /* Grey text */
-/*padding: 25px; /* Some padding */
 text-align: right;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-size:50px;
@@ -173,43 +172,26 @@ text-align: center;
 
     }
 }
-@media screen and (max-width: 768px){
-    footer {
-        flex-direction: column;
-        align-items: center;
-    }
-    .left-box h2{
-        display: none;
-        }
-    .left-box .content p{
-       display: none;
-    }
-    .center, .right {
-        display: none;
-    }
-    .flex .social {
-        width: 100%;
-        align-self: flex-start;
-        
-    }
-}
+
+
+/*footer*/
+
 footer {
-    bottom: 0;
     width: 100%;
     background-color: #212529;
     display: flex;
 }
 
-footer a{
+footer a {
     text-decoration: none;
 }
 
-.flex{
+.flex {
     width: 33%;
     margin: 2%;
 }
 
-.flex h2:after{
+.flex h2:after {
    border-bottom: 2px solid rgb(58, 197, 76);
    content: "";
    display: block;
@@ -224,18 +206,21 @@ footer a{
     background-color:  rgb(16, 51, 75);
 }
 
-#msgForm{
+#msgForm {
     width: 100%;
     font-size: 1.0625rem;
     background: #151515;
     padding-left: 10px;
     border: 1px solid #222222;
+
 }
 
 .left-box {
     flex-basis: 50%;
     padding: 10px 20px;
 }
+
+
 .content {
     margin: 20px 0 0 0;
 }
@@ -262,7 +247,7 @@ span {
 }
 
 .left-box .content .social a span:hover {
-    background:#435abe;
+    background: blue;
 
 }
 
@@ -279,7 +264,7 @@ span {
 }
 
 .center .content .fas:hover {
-    background: #435abe;
+    background:  #435abe;
 }
 
 .center .content .text {
@@ -287,29 +272,65 @@ span {
     font-weight: 500;
     padding-left: 10px;
 }
-.center .content .phone{
+.center .content .phone {
     margin: 15px 0;
 }
 
 .right {
       margin-left: auto;
 }
-.right form .text{
+.right form .text {
     font-size: 1.0625rem;
     margin-bottom: 2px;
     color: #656565;
 }
 
-.right form .msg{
+.right form .msg {
     margin-top: 10px;
 }
 
-.right form input, .right form .msgForm{
+.right form input, .right form .msgForm {
     width: 100%;
     font-size: 1.0625rem;
     background: #151515;
     padding-left: 10px;
     border: 1px solid #222222;
 }
+@media screen and (max-width: 960px){
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .center, .right {
+        display: none;
+    }
+    .flex .social {
+        width: 100%;
+        align-self: flex-start;
+
+    }
+}
+@media screen and (max-width: 768px){
+    footer {
+        flex-direction: column;
+        align-items: center;
+    }
+    .left-box h2{
+        display: none;
+        }
+    .left-box .content p{
+       display: none;
+    }
+    .center, .right {
+        display: none;
+    }
+    .flex .social {
+        width: 100%;
+        align-self: flex-start;
+        
+    }
+}
+
+
 
 
